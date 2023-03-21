@@ -21,6 +21,7 @@
             <String label="Type" v-model="value.type" :editMode="editMode"/>
             <String label="Size" v-model="value.size" :editMode="editMode"/>
             <String label="UploadUser" v-model="value.uploadUser" :editMode="editMode"/>
+            <String label="Test" v-model="value.test" :editMode="editMode"/>
         </v-card-text>
 
         <v-card-actions>

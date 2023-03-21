@@ -10,6 +10,8 @@ import FileDetail from "./components/listers/FileDetail"
 
 import IndexManager from "./components/listers/IndexCards"
 import IndexDetail from "./components/listers/IndexDetail"
+import IndexManager from "./components/listers/IndexCards"
+import IndexDetail from "./components/listers/IndexDetail"
 
 import VideoManager from "./components/listers/VideoCards"
 import VideoDetail from "./components/listers/VideoDetail"
@@ -32,6 +34,16 @@ export default new Router({
                 component: FileDetail
             },
 
+            {
+                path: '/indices',
+                name: 'IndexManager',
+                component: IndexManager
+            },
+            {
+                path: '/indices/:id',
+                name: 'IndexDetail',
+                component: IndexDetail
+            },
             {
                 path: '/indices',
                 name: 'IndexManager',

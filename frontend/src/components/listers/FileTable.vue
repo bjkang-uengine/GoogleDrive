@@ -71,6 +71,7 @@
                     { text: "type", value: "type" },
                     { text: "size", value: "size" },
                     { text: "uploadUser", value: "uploadUser" },
+                    { text: "test", value: "test" },
                 ],
             file : [],
             newValue: {},
@@ -92,6 +93,7 @@
                 'type': '',
                 'size': '',
                 'uploadUser': '',
+                'test': '',
             }
         },
         methods: {

@@ -72,6 +72,7 @@
                 'type': '',
                 'size': '',
                 'uploadUser': '',
+                'test': '',
             }
         },
         methods:{

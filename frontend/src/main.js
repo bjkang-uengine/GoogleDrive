@@ -47,6 +47,7 @@ const pluralCaseList = []
 pluralCaseList.push( {plural: "files", pascal: "File"} )
 
 pluralCaseList.push( {plural: "indices", pascal: "Index"} )
+pluralCaseList.push( {plural: "indices", pascal: "Index"} )
 
 pluralCaseList.push( {plural: "videos", pascal: "Video"} )
 
