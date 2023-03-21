@@ -14,6 +14,7 @@
                             
                             
                             
+                            
                         </v-list-item-title>
 
                         <v-list-item-subtitle style="font-size:25px; font-weight:700;">
@@ -22,6 +23,7 @@
                             [ Type :  {{data.type }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ Size :  {{data.size }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ UploadUser :  {{data.uploadUser }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ Test :  {{data.test }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
                     </v-list-item-content>
@@ -107,6 +109,7 @@
                 'type': '',
                 'size': '',
                 'uploadUser': '',
+                'test': '',
             }
         },
         methods: {

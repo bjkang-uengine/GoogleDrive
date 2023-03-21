@@ -36,10 +36,11 @@ mvn spring-boot:run
 ## Test by API
 - drive
 ```
- http :8088/files id="id" name="name" type="type" size="size" uploadUser="uploadUser" 
+ http :8088/files id="id" name="name" type="type" size="size" uploadUser="uploadUser" test="test" 
 ```
 - indexer
 ```
+ http :8088/indices id="id" keyword="keyword" fileId="fileId" fileType="fileType" uploadUser="uploadUser" 
  http :8088/indices id="id" keyword="keyword" fileId="fileId" fileType="fileType" uploadUser="uploadUser" 
 ```
 - video processing

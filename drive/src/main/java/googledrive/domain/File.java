@@ -24,6 +24,8 @@ public class File {
 
     private String uploadUser;
 
+    private String test;
+
     @PostPersist
     public void onPostPersist() {
         FileUploaded fileUploaded = new FileUploaded(this);
